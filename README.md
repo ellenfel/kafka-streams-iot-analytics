@@ -373,10 +373,7 @@ Let's create kafka integration that will subscribe to â€œsolar-module-anomaliesâ
 
 ### Step 4. Configure Rule Engine to raise Alarms.
 
-Follow existing "[Create and Clear Alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/)" guide to raise the alarm 
-based on the "anomaly" boolean flag in the incoming telemetry and use 
-"[Send email on alarm](/docs/user-guide/rule-engine-2-0/tutorials/send-email/)" guide to send email notifications.
-Explore other [guides](/docs/{{docsPrefix}}guides/) to learn mode. 
+Raise the alarm based on the "anomaly" boolean flag in the incoming telemetry.
 
 ### Step 5. Remove debug messages logging
 
