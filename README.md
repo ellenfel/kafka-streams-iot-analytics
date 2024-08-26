@@ -379,3 +379,18 @@ Raise the alarm based on the "anomaly" boolean flag in the incoming telemetry.
 
 Although the Debug mode is very useful for development and troubleshooting, leaving it enabled in production mode may tremendously increase the disk space, used by the database, because all the debugging data is stored there. 
 It is highly recommended to turn the Debug mode off when done debugging. 
+
+
+### Step 6. Some other resources to look into
+
+ -  Machine Learning and Real-Time Analytics in Apache Kafka Applications[https://www.confluent.io/blog/machine-learning-real-time-analytics-models-in-kafka-applications/]
+
+ - How to Build and Deploy Scalable Machine Learning in Production with Apache Kafka[https://www.confluent.io/blog/build-deploy-scalable-machine-learning-production-apache-kafka/]
+
+ - Using Apache Kafka to Drive Cutting-Edge Machine Learning[https://www.confluent.io/blog/using-apache-kafka-drive-cutting-edge-machine-learning/]
+
+ - Introduction to KafkaStreams in Java[https://www.baeldung.com/java-kafka-streams]
+
+ - ML Prediction on Streaming Data Using Kafka Streams[https://towardsdatascience.com/ml-prediction-on-streaming-data-using-kafka-streams-1e4ebd21008]
+
+ - Kafka Streams 101 Course[https://www.youtube.com/watch?v=gJUTErFyuY4&list=PLa7VYi0yPIH35IrbJ7Y0U2YLrR9u4QO-s]
