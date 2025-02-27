@@ -1,0 +1,12 @@
+<dependencies>
+    <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka-streams</artifactId>
+        <version>${kafka.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson.version}</version>
+    </dependency>
+</dependencies>
