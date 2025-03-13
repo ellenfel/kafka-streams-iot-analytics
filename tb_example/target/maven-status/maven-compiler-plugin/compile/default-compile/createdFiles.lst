@@ -1,0 +1,9 @@
+org/thingsboard/kafka/JsonPojoSerializer.class
+org/thingsboard/kafka/SolarConsumer.class
+org/thingsboard/kafka/SolarPanelAggregatorJoiner.class
+org/thingsboard/kafka/SolarModuleKey.class
+org/thingsboard/kafka/JsonPojoDeserializer.class
+org/thingsboard/kafka/SolarModuleAggregatorJoiner.class
+org/thingsboard/kafka/SolarModuleAggregator.class
+org/thingsboard/kafka/SolarPanelAggregator.class
+org/thingsboard/kafka/SolarModuleData.class

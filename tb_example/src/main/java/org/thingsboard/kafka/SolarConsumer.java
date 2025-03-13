@@ -143,8 +143,11 @@ public class SolarConsumer {
                 aggPowerPerSolarPanelStream
                         .join(
                                 aggPowerPerSolarModuleForJoinStream,
-                                SolarPanelAggregatorJoiner::new, JOIN_WINDOWS,
-                                Joined.with(WINDOWED_STRING_SERDE, SOLAR_PANEL_AGGREGATOR_SERDE, SOLAR_MODULE_AGGREGATOR_SERDE));
+                                (panelAgg, moduleAgg) -> new SolarPanelAggregatorJoiner(panelAgg, moduleAgg),
+                                JOIN_WINDOWS,
+                                Joined.with(WINDOWED_STRING_SERDE, 
+                                        SOLAR_PANEL_AGGREGATOR_SERDE, 
+                                        SOLAR_MODULE_AGGREGATOR_SERDE));
 
         //calculating sumSquare and deviance
         final KStream<Windowed<String>, SolarPanelAggregator> aggPowerPerSolarPanelFinalStream =
@@ -167,7 +170,8 @@ public class SolarConsumer {
                         .map((k, v) -> KeyValue.pair(new Windowed<>(k.key().getPanelName(), k.window()), v))
                         .join(
                                 aggPowerPerSolarPanelFinalStream,
-                                SolarModuleAggregatorJoiner::new, JOIN_WINDOWS,
+                                (moduleAgg, panelAgg) -> new SolarModuleAggregatorJoiner(moduleAgg, panelAgg),
+                                JOIN_WINDOWS,
                                 Joined.with(WINDOWED_STRING_SERDE,
                                         SOLAR_MODULE_AGGREGATOR_SERDE,
                                         SOLAR_PANEL_AGGREGATOR_SERDE));

@@ -1,0 +1,9 @@
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarModuleAggregator.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/JsonPojoDeserializer.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarPanelAggregatorJoiner.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarModuleKey.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarPanelAggregator.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarModuleAggregatorJoiner.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarConsumer.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/JsonPojoSerializer.java
+/home/ellenfel/Desktop/repos/tb_stuff/kafka-streams-example/tb_example/src/main/java/org/thingsboard/kafka/SolarModuleData.java
